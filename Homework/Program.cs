@@ -10,42 +10,29 @@ namespace Homework
             //## Task 1
             //Create new console application “RealCalculator” that takes two numbers from the input and asks what operation would the user want to be done( +, - , * , / ). Then it returns the result.
 
-            //double firstnum;
-            //double secoundnum;
-            //double answer;
-            //string ops;
+            double firstnum;
+            double secoundnum;
+            double answer;
+            string ops;
 
-            //Console.WriteLine("Enter first number");
-            //firstnum = Double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter first number");
+            firstnum = Double.Parse(Console.ReadLine());
 
-            //Console.WriteLine("Select operation(+,-,*,/)");
-            //ops = Console.ReadLine();
+            Console.WriteLine("Select operation(+,-,*,/)");
+            ops = Console.ReadLine();
+           
+            Console.WriteLine("Enter secound number");
+            secoundnum = Double.Parse(Console.ReadLine());
 
-            //Console.WriteLine("Enter secound number");
-            //secoundnum = Double.Parse(Console.ReadLine());
 
-
-            //if(ops=="+")
-            //{
-            //    answer = firstnum + secoundnum;
-            //    Console.Write(answer);
-            //}
-            //if (ops == "-")
-            //{
-            //    answer = firstnum - secoundnum;
-            //    Console.Write(answer);
-            //}
-            //if (ops == "*")
-            //{
-            //    answer = firstnum *secoundnum;
-            //    Console.Write(answer);
-            //}
-            //if (ops == "/")
-            //{
-            //    answer = firstnum /secoundnum;
-            //    Console.Write(answer);
-            //}
-            //Console.ReadKey();
+            if (ops == "+")
+            {
+                do something
+            }
+            else if (ops == "-")
+            {
+                do something else
+            }
 
 
 
